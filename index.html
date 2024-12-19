@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <h2 class="titulo">Escolha os jogadores</h2>
+        <button class="botoes" value="X" id="X" onclick="coletarValor(this)">X</button>
+        <button class="botoes botaoO" value="O" id="O" onclick="coletarValor(this)">O</button>
+    </div>
+        <div class="blocoCentral">
+            <div class="bloco bloco1" onclick="mudarValor(this.id, this)" id="bloco1"></div>
+            <div class="bloco bloco2" onclick="mudarValor(this.id, this)" id="bloco2"></div>
+            <div class="bloco bloco3" onclick="mudarValor(this.id, this)" id="bloco3"></div>
+            <div class="bloco bloco4" onclick="mudarValor(this.id, this)" id="bloco4"></div>
+            <div class="bloco bloco5" onclick="mudarValor(this.id, this)" id="bloco5"></div>
+            <div class="bloco bloco6" onclick="mudarValor(this.id, this)" id="bloco6"></div>
+            <div class="bloco bloco7" onclick="mudarValor(this.id, this)" id="bloco7"></div>
+            <div class="bloco bloco8" onclick="mudarValor(this.id, this)" id="bloco8"></div>
+            <div class="bloco bloco9" onclick="mudarValor(this.id, this)" id="bloco9"></div>
+        </div>
+        <div>
+            <p class="jogadores" id="contadorJogador1">1° Jogador:</p><br>
+            <p class="jogadores" id="contadorJogador2">2° Jogador:</p>
+        </div>
+</body>
+<script src="index.js"></script>
+</html>
