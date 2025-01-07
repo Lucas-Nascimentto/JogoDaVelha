@@ -34,10 +34,10 @@ function mudarValor(id, elemento){
             vezDeJogar = jogador1;
         }
     }
-    // Verificação com um pequeno atraso para garantir que a jogada seja processada
+    
     setTimeout(function() {
         verificacao();
-    }, 100);  // 100 milissegundos de atraso
+    }, 100);  
 }
 
 function verificacao(){

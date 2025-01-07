@@ -69,7 +69,7 @@ body{
     align-items: center;
     height: 18.75rem;
     width: 18.75rem;
-    flex-wrap: wrap;  /* Para permitir que as divs quebrem de linha */
+    flex-wrap: wrap;  
     
 }
 
